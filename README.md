@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-##### :round_pushpin: Bootstrap nedir ve nasıl kullanılr? Bootstrap 4 ile modern responsive web siteleri nasıl yapılır?
+#### :round_pushpin: Bootstrap nedir ve nasıl kullanılr? Bootstrap 4 ile modern responsive web siteleri nasıl yapılır?
 
   - Bootstrap 4 Front-End Geliştiricilerin kullandığı ücretsiz ve son derece popüler bir Css ve Javascript kütüphanesidir.
   - Bootstrap sayesinde masaüstü, tablet, mobil cihaz ve tüm tarayıcılara uyumlu web web sitelerini kolaylıkla geliştirebiliriz. Üstelik ayrı tasarımlar yapmamıza gerek kalmıyor.
@@ -27,7 +27,7 @@
 ##### .alert  .alert-primary :
 - Classları sayesinde güzel görünümlü bir uyarı kutusu oluşturmuş oluyoruz.
   
-##### :round_pushpin: Bootstrap 4 kütüphanesini nasıl kullanırım? Bootstrap css ve javascript dosyalarını sayfama nasıl ekleyebilirim? 
+#### :round_pushpin: Bootstrap 4 kütüphanesini nasıl kullanırım? Bootstrap css ve javascript dosyalarını sayfama nasıl ekleyebilirim? 
 
 - Bootstrap 4 kütüphanesini [mobile cihazları(mobile-first)]() hedef alan [responsive]() bir yapıya sahiptir.
 - Responsive tasarımın etkin olabilmesi için aşağıdaki responsive meta etiketini [<head>]() kısmına eklememiz gerekiyor.
@@ -73,7 +73,7 @@
   </body>
 </html>
 ```
-##### :round_pushpin: Bootstrap 4 Grid Sistem nedir ve nasıl kullanılır ?
+#### :round_pushpin: Bootstrap 4 Grid Sistem nedir ve nasıl kullanılır ?
 - Bootstrap 4 ile içeriklerimizi ".container" ya da ".container-fluid" sınıfları içine almamız gerekiyor.
 
 [![Container Status](https://sadikturan.com/img/course/boostrap4-container.jpg)]()
