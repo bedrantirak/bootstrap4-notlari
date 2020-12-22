@@ -73,3 +73,46 @@
   </body>
 </html>
 ```
+##### :round_pushpin: Bootstrap 4 Grid Sistem nedir ve nasıl kullanılır ?
+- Bootstrap 4 ile içeriklerimizi ".container" ya da ".container-fluid" sınıfları içine almamız gerekiyor.
+
+[![Container Status](https://sadikturan.com/img/course/boostrap4-container.jpg)]()
+
+- ".container" ile responsive olarak yani tarayıcı genişliğine göre ".container" class' ı sayfamızın alacağı sabit genişliği belirler.
+```sh
+<div class="container">
+</div>
+```
+- ".container-fluid" ile tarayıcının genişliğini hesaba katmadan tam ekran genişliğinde bir sayfamız olur.
+```sh
+<div class="container-fluid">
+</div>
+```
+##### Bootstrap 4 Grid sistemi ile;
+- Her satır ".row" class' ı
+- her kolon ".col-* " sınıfı ile belirlenir.
+- Her ".row" yani her satır için içerisinde toplam "12 kolon" bulunmaktadır. Toplamda 12 kolonu farklı oranlarda birleştirip kullanabiliriz.
+
+[![Gris Sistem](https://sadikturan.com/img/course/boostrap4-grid-sistem.jpg)]()
+
+- Aşağıdaki örneklerden "herbir satırı" sırasıyla "3,2,4" eşit parçaya bölmüş oluruz.
+```sh
+<div class="row">
+  <div class="col"></div>
+  <div class="col"></div>
+  <div class="col"></div>
+</div>
+
+<div class="row">
+  <div class="col"></div>
+  <div class="col"></div> 
+</div>
+
+<div class="row">
+  <div class="col"></div>
+  <div class="col"></div> 
+  <div class="col"></div>
+  <div class="col"></div>
+</div>
+```
+[Demo](https://codepen.io/bedrantirak/pen/LYRzPWw)
