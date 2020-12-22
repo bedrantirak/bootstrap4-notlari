@@ -2,7 +2,7 @@
 
 
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://www.linkedin.com/in/bedran-t%C4%B1rak-1a4bb9146/)
 
 #### :round_pushpin: Bootstrap nedir ve nasıl kullanılr? Bootstrap 4 ile modern responsive web siteleri nasıl yapılır?
 
