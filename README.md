@@ -116,3 +116,72 @@
 </div>
 ```
 [Demo](https://codepen.io/bedrantirak/pen/LYRzPWw)
+
+- Örnekte herhangi bir bootstrap responsive ön eki (.sm, md, lg, xl) kullanıldığından dolayı ".col" class' ı ile satırlar tarayıcının her genişliğinde yan yana olacaktır.
+
+- Grid sistemin en büyük avantajı responsive bir yapıya sahip olmasıdır yani tarayıcı genişliğine göre her bir kolonu yan yana ya da alt alta alabiliriz.
+
+- @media query' ler ile tarayıcının o anki genişliğini alabiliyoruz ve aldığımğz bu değerlere göre "<div>" etiketlerini yani bootstrap açısından baktığımızda oluşturduğumuz her kolonun yan yana ya da alt alta alabiliriz.
+
+- Eğer ki satırda yer varsa yan yana, satırda yer kalmadıysa alt satıra alabiliyoruz ki; masaüstü bilgisayarda açılan bir sitenin görünümü yatayda yer kaplarken, mobile bir cihazda açılan site tasarımındaki her kolonun alt alta gelmesi daha iyi bir görünüm sağlayacaktır.
+
+- Bootstrap 4 aşağıdaki media query değerlerini kullanmaktadır.
+
+```sh
+// Small devices (landscape phones, 576px ve yukarısı)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px ve yukarısı)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px ve yukarısı)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px ve yukarısı)
+@media (min-width: 1200px) { ... }
+```
+Yani tarayıcı genişliği;
+
+- 576px ve aşağısında mı? (.xs)(!! .xs class' ı bootstrap 4'de kullanılmamaktadır.)
+ 
+- minimum 576px ve 768px aralığında mı? (.sm)
+
+- minimum 768px ve 992px aralığında mı? (md)
+
+- minimum 992px ve 1200px aralığında mı? (lg)
+
+- ya da 1200px ve üstünde mi?(xl)
+
+> Media query kullanarak sayısal değerlerle 
+> uğraşmak yerine bootstrap 4 ile belirlenen
+> ve her bir sayısal değere karşılık gelen class
+> isimlerini kullanmak çok daha kolaydır. Bu class
+> isimleri; ".xs(extra small)",".sm(small)",
+> ".md(medium)",".lg(large)",".xl(extra large)"
+> class' larıdır.
+
+```sh
+<div class="row">
+  <div class="col-sm-3">.col-sm-3</div>
+  <div class="col-sm-3">.col-sm-3</div>
+  <div class="col-sm-3">.col-sm-3</div>
+  <div class="col-sm-3">.col-sm-3</div>
+</div>
+```
+[Demo](https://codepen.io/bedrantirak/pen/KKgXPYx)
+
+- ".col-sm-3" class' ı ile 12 kolonluk satırı 4 eşit parçaya bölmüş oluruz. Ancak ".sm " class' ı eklediğimizden dolayı small cihazların altındaki çözünürlükte (576px) kolonlar alt alta gelecektir.
+
+- Örnekte tarayıcının genişliğini azaltıp 575px' de her bir div' in alt alta geldiğini görebilirsiniz.
+
+```sh
+<div class="row">
+   <div class="col-md-3">.col-md-3</div>
+   <div class="col-md-9">.col-md-6</div>  
+</div>
+```
+[Demo](https://codepen.io/bedrantirak/pen/xxEXxxG)
+
+- ".col-md-3" ve ".col-md-9" sınıflarıyla ikiye böldüğümüz satır medium cihaz yani 768px' in altına indiği anda kolonlar alt alta gelecektir.
+ 
+
