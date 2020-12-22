@@ -41,7 +41,7 @@
 ```sh
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 ```
-- ["Bootstrap Javascript Component"]() leri kullanabilmel için ise aşağıdaki javascript kütüphanelerini "</body>" kapanış etiketinin hemen üstüne eklememiz gerekiyor.
+- ["Bootstrap Javascript Component"]() leri kullanabilmek için ise aşağıdaki javascript kütüphanelerini "</body>" kapanış etiketinin hemen üstüne eklememiz gerekiyor.
 
 ```sh
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
