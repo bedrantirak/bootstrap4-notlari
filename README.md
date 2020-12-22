@@ -30,7 +30,7 @@
 #### :round_pushpin: Bootstrap 4 kütüphanesini nasıl kullanırım? Bootstrap css ve javascript dosyalarını sayfama nasıl ekleyebilirim? 
 
 - Bootstrap 4 kütüphanesini [mobile cihazları(mobile-first)]() hedef alan [responsive]() bir yapıya sahiptir.
-- Responsive tasarımın etkin olabilmesi için aşağıdaki responsive meta etiketini [<head>]() kısmına eklememiz gerekiyor.
+- Responsive tasarımın etkin olabilmesi için aşağıdaki responsive meta etiketini "head" kısmına eklememiz gerekiyor.
 ```sh
   <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
@@ -121,7 +121,7 @@
 
 - Grid sistemin en büyük avantajı responsive bir yapıya sahip olmasıdır yani tarayıcı genişliğine göre her bir kolonu yan yana ya da alt alta alabiliriz.
 
-- @media query' ler ile tarayıcının o anki genişliğini alabiliyoruz ve aldığımğz bu değerlere göre "<div>" etiketlerini yani bootstrap açısından baktığımızda oluşturduğumuz her kolonun yan yana ya da alt alta alabiliriz.
+- @media query' ler ile tarayıcının o anki genişliğini alabiliyoruz ve aldığımğz bu değerlere göre "div" etiketlerini yani bootstrap açısından baktığımızda oluşturduğumuz her kolonun yan yana ya da alt alta alabiliriz.
 
 - Eğer ki satırda yer varsa yan yana, satırda yer kalmadıysa alt satıra alabiliyoruz ki; masaüstü bilgisayarda açılan bir sitenin görünümü yatayda yer kaplarken, mobile bir cihazda açılan site tasarımındaki her kolonun alt alta gelmesi daha iyi bir görünüm sağlayacaktır.
 
@@ -186,8 +186,10 @@ Yani tarayıcı genişliği;
 
 #### :round_pushpin: Bootstrap Typography nedir ve nasıl kullanılır? Bootstrap Text etiketlerini nasıl kullanırız? Text Truncate nedir?
 
-- Bootstrap 4 varsayılan olarak 16px font-size (1rem), 24px line-height (1.5rem) , "Helvetica Neue", Helvetica, Arial, sans-serif font-family değerlerini kullanıyor. Ayrıca "<p>" etiketleri için "margin-top:0;" ve "margin-bottom:1rem (16px)" değerlerini kullanmaktadır. 
+- Bootstrap 4 varsayılan olarak 16px font-size (1rem), 24px line-height (1.5rem) , "Helvetica Neue", Helvetica, Arial, sans-serif font-family değerlerini kullanıyor. Ayrıca "p" etiketleri için "margin-top:0;" ve "margin-bottom:1rem (16px)" değerlerini kullanmaktadır. 
+
 - Yani ek ayarlama yapmadan "bootstrap.min.css" dosyasını eklediğiniz her sayfada bu değerler etkin olacaktır.
+
 -   "rem" değeri html' de 16px' lik değeri kullanır.
 
 ##### :point_right: Bootstrap 4 Başlık Etiketleri (Headings)
@@ -226,9 +228,9 @@ Yani tarayıcı genişliği;
     color: #6c757d!important;
 }
 ```
-- "<small>" etiketi için %80' lik bir font-size uygulanır. Yani o anda "<small>" etiketi hangi etiket içindeyse o etikete uygulanan font-size değerinin %80' ini kullanmış olur. Yani "<small>" etiketinin "<h1>" etiketi içinde olmasıyla "<h4>" etiketinin içinde olması arasında farklılık vardır.
+- "small" etiketi için %80' lik bir font-size uygulanır. Yani o anda "small" etiketi hangi etiket içindeyse o etikete uygulanan font-size değerinin %80' ini kullanmış olur. Yani "small" etiketinin "h1" etiketi içinde olmasıyla "h4" etiketinin içinde olması arasında farklılık vardır.
 
-- Ayrıca "<small>" etiketi yerine ".small" class' ınıda kullanabilirsiniz.
+- Ayrıca "small" etiketi yerine ".small" class' ınıda kullanabilirsiniz.
 ```sh
 .small, small {
     font-size: 80%;
