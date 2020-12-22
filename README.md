@@ -183,5 +183,56 @@ Yani tarayıcı genişliği;
 [Demo](https://codepen.io/bedrantirak/pen/xxEXxxG)
 
 - ".col-md-3" ve ".col-md-9" sınıflarıyla ikiye böldüğümüz satır medium cihaz yani 768px' in altına indiği anda kolonlar alt alta gelecektir.
- 
+
+#### :round_pushpin: Bootstrap Typography nedir ve nasıl kullanılır? Bootstrap Text etiketlerini nasıl kullanırız? Text Truncate nedir?
+
+- Bootstrap 4 varsayılan olarak 16px font-size (1rem), 24px line-height (1.5rem) , "Helvetica Neue", Helvetica, Arial, sans-serif font-family değerlerini kullanıyor. Ayrıca "<p>" etiketleri için "margin-top:0;" ve "margin-bottom:1rem (16px)" değerlerini kullanmaktadır. 
+- Yani ek ayarlama yapmadan "bootstrap.min.css" dosyasını eklediğiniz her sayfada bu değerler etkin olacaktır.
+-   "rem" değeri html' de 16px' lik değeri kullanır.
+
+##### :point_right: Bootstrap 4 Başlık Etiketleri (Headings)
+- h1,h2,h3,h4,h5,h6 
+```sh
+  <h1>h1. Bootstrap heading</h1>
+  <h2>h2. Bootstrap heading</h2>
+  <h3>h3. Bootstrap heading</h3>
+  <h4>h4. Bootstrap heading</h4>
+  <h5>h5. Bootstrap heading</h5>
+  <h6>h6. Bootstrap heading</h6>
+```
+[Demo](https://codepen.io/bedrantirak/pen/PoGJqwZ)
+h1 => 2.5rem  (40px)
+h2 => 2rem    (32px)
+h3 => 1.75rem (28px)
+h4 => 1.5rem  (24px)
+h5 => 1.25rem (20px)
+h6 => 1rem    (16px)
+
+- Bazen başlıkların yanında daha soluk bir yazı içeriği yani bir alt başlık oluşturmak isteyebiliriz.
+```sh
+<h3>
+  Web Geliştirme
+  <small class="text-muted">Html Css ve Javascript</small>
+</h3>
+```
+[Demo](https://codepen.io/bedrantirak/pen/JjRrdow)
+
+- ".text-muted" class' ı daha soluk bir renk kodu uygular.
+
+- "!important" buradaki css kodunun mutlaka etkin olması yani başka bir color' ın bu css değerini ezmemesini garanti eder.
+```sh
+.text-muted {
+    color: #6c757d!important;
+}
+```
+- "<small>" etiketi için %80' lik bir font-size uygulanır. Yani o anda "<small>" etiketi hangi etiket içindeyse o etikete uygulanan font-size değerinin %80' ini kullanmış olur. Yani "<small>" etiketinin "<h1>" etiketi içinde olmasıyla "<h4>" etiketinin içinde olması arasında farklılık vardır.
+
+- Ayrıca "<small>" etiketi yerine ".small" class' ınıda kullanabilirsiniz.
+```sh
+.small, small {
+    font-size: 80%;
+    font-weight: 400;
+}
+```
+  
 
