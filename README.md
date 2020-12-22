@@ -201,12 +201,13 @@ Yani tarayıcı genişliği;
   <h6>h6. Bootstrap heading</h6>
 ```
 [Demo](https://codepen.io/bedrantirak/pen/PoGJqwZ)
-h1 => 2.5rem  (40px)
-h2 => 2rem    (32px)
-h3 => 1.75rem (28px)
-h4 => 1.5rem  (24px)
-h5 => 1.25rem (20px)
-h6 => 1rem    (16px)
+
+- h1 => 2.5rem  (40px)
+- h2 => 2rem    (32px)
+- h3 => 1.75rem (28px)
+- h4 => 1.5rem  (24px)
+- h5 => 1.25rem (20px)
+- h6 => 1rem    (16px)
 
 - Bazen başlıkların yanında daha soluk bir yazı içeriği yani bir alt başlık oluşturmak isteyebiliriz.
 ```sh
