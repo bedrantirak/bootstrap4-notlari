@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://www.linkedin.com/in/bedran-t%C4%B1rak-1a4bb9146/)
 
-#### :round_pushpin: Bootstrap nedir ve nasıl kullanılr? Bootstrap 4 ile modern responsive web siteleri nasıl yapılır?
+#### :round_pushpin: Bootstrap nedir ve nasıl kullanılır? Bootstrap 4 ile modern responsive web siteleri nasıl yapılır?
 
   - Bootstrap 4 Front-End Geliştiricilerin kullandığı ücretsiz ve son derece popüler bir Css ve Javascript kütüphanesidir.
   - Bootstrap sayesinde masaüstü, tablet, mobil cihaz ve tüm tarayıcılara uyumlu web web sitelerini kolaylıkla geliştirebiliriz. Üstelik ayrı tasarımlar yapmamıza gerek kalmıyor.
@@ -37,12 +37,12 @@
 - [width = device-width]() özelliği cihazın ekran genişliğini algılayıp sayfanın genişliğini bu değere eşitlemesi ile alakalıdır.
 - [initial-scale = 1]() ise sayfa ölçeklendirmesini (zoom) ayarlar.
 - Bootstrap Kurulumu için ilk olarak bootstrap css ve javascript dosyalarını sayfamıza eklememiz gerekiyor.
-- Bootstrap "css class" larını kullanabilmek için ["bootstrap.min.css"]() dosyasının "cdn" adresini html sayfamızın "<head>" kısmına eklememiz gerekiyor.
+- Bootstrap "css class" larını kullanabilmek için ["bootstrap.min.css"]() dosyasının "cdn" adresini html sayfamızın "head" kısmına eklememiz gerekiyor.
 
 ```sh
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 ```
-- ["Bootstrap Javascript Component"]() leri kullanabilmek için ise aşağıdaki javascript kütüphanelerini "</body>" kapanış etiketinin hemen üstüne eklememiz gerekiyor.
+- ["Bootstrap Javascript Component"]() leri kullanabilmek için ise aşağıdaki javascript kütüphanelerini "/body" kapanış etiketinin hemen üstüne eklememiz gerekiyor.
 
 ```sh
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -91,7 +91,7 @@
 ```
 ##### Bootstrap 4 Grid sistemi ile;
 - Her satır ".row" class' ı
-- her kolon ".col-* " sınıfı ile belirlenir.
+- Her kolon ".col-* " sınıfı ile belirlenir.
 - Her ".row" yani her satır için içerisinde toplam "12 kolon" bulunmaktadır. Toplamda 12 kolonu farklı oranlarda birleştirip kullanabiliriz.
 
 [![Gris Sistem](https://sadikturan.com/img/course/boostrap4-grid-sistem.jpg)]()
