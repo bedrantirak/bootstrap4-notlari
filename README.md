@@ -252,7 +252,7 @@ Yani tarayıcı genişliği;
 
 - Tüm "bootstrap display" sınıflarının "h1" etiketine class şeklinde uygulandığına dikkat ediniz. Bu class' ları sadece "h" etiketleri için kullanmak zorunda da değiliz.
 
-##### :point_right: Bootstrap 4 Display Heading
+##### :point_right: Bootstrap 4 Text Elements
 
 ##### "mark";
 
