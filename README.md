@@ -238,5 +238,72 @@ Yani tarayıcı genişliği;
     font-weight: 400;
 }
 ```
+##### :point_right: Bootstrap 4 Display Heading
+
+- Bootstrap 4 ile gelen display class' ları headings etiketlerinden farklı olarak daha ince bir font kalınlığı ile daha büyük font büyüklüğü kullanmamıza imkan tanır.
+
+```sh
+<h1 class="display-1">Display 1</h1>
+<h1 class="display-2">Display 2</h1>
+<h1 class="display-3">Display 3</h1>
+<h1 class="display-4">Display 4</h1>
+```
+[Demo](https://codepen.io/bedrantirak/pen/MWjEwKQ)
+
+- Tüm "bootstrap display" sınıflarının "h1" etiketine class şeklinde uygulandığına dikkat ediniz. Bu class' ları sadece "h" etiketleri için kullanmak zorunda da değiliz.
+
+##### :point_right: Bootstrap 4 Display Heading
+
+##### "mark";
+
+- Bootstrap 4 "mark" etiketi içine alınan yazıya sarı bir arka zemin rengi ekleyerek yazıya dikkat edilmesi gerektiğini belirtiyor.
+
+```sh
+<p> Use the mark element to <mark>highlight</mark> text.</p>
+```
+[Demo](https://codepen.io/bedrantirak/pen/bGwooaR)
+
+##### "blockquotes";
+
+- Blockquotes etiketini bir paragraf içinde bir kısma daha dikkat çekmek için kullanırız. Örneğin makaleyi yazan kişi bir özet bilgi paylaşmak istediğinde "blockquotes" etiketi içine alabiliriz.
+
+```sh
+<div class="container">
+   <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quos rem, ipsam praesentium est temporibus sint, minus quia quidem autem ea? Amet atque minus fugiat, sed necessitatibus voluptas beatae architecto?
+  </p>
+<blockquote class="blockquote">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+</blockquote>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quos rem, ipsam praesentium est temporibus sint, minus quia quidem autem ea? Amet atque minus fugiat, sed necessitatibus voluptas beatae architecto?
+  </p>
+</div>
+```
+
+[Demo](https://codepen.io/bedrantirak/pen/RwGLLBa)
+
+##### Lists;
+
+- ul, li
+
+```sh
+<ul class="list-unstyled">
+  <li>Lorem ipsum dolor sit amet</li>  
+  <li>Nulla volutpat aliquam velit
+    <ul>
+      <li>Phasellus iaculis neque</li>
+      <li>Purus sodales ultricies</li>    
+    </ul>
+  </li>
+  <li>Faucibus porta lacus fringilla vel</li>
+  <li>Aenean sit amet erat nunc</li> 
+</ul>
+```
+
+[Demo](https://codepen.io/bedrantirak/pen/qBaPPJW)
+
+- "ul" etiketine uygulayacağımız ".list-unstyled" class' ı ile "padding-left:0, list-style:none, margin-top:0 ve margin-bottom:1rem (16px)" özelliklerini uygulayarak "ul" etiketi için kullandığımız rutin işleri bootstrap bizim adımıza yapmış olur.
   
 
