@@ -306,4 +306,21 @@ Yani tarayıcı genişliği;
 
 - "ul" etiketine uygulayacağımız ".list-unstyled" class' ı ile "padding-left:0, list-style:none, margin-top:0 ve margin-bottom:1rem (16px)" özelliklerini uygulayarak "ul" etiketi için kullandığımız rutin işleri bootstrap bizim adımıza yapmış olur.
   
+##### Inline List Elements;
+
+- Listelere uygulayacağımız bootstrap ".list-inline ve .list-inline-item" class' ları ile liste elemanlarımıza uygulanan varsayılan liste eleman tipini "list-style-type:none" yapar ayrıca liste elemanlarını yan yana almış oluruz.
+
+```sh
+<div class="container">
+  
+  <ul class="list-inline">
+    <li class="list-inline-item">Lorem ipsum</li>
+    <li class="list-inline-item">Phasellus iaculis</li>
+    <li class="list-inline-item">Nulla volutpat</li>
+  </ul>
+</div>
+```
+[Demo](https://codepen.io/bedrantirak/pen/rNMGGRR)
+
+- Her bir liste elemanının "display: inline-block;" olarak değiştirildiğine dikkat ediniz.
 
