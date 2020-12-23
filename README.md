@@ -324,3 +324,29 @@ Yani tarayıcı genişliği;
 
 - Her bir liste elemanının "display: inline-block;" olarak değiştirildiğine dikkat ediniz.
 
+##### :point_right: Bootstrap 4 Text Transform Elements
+
+- "text-lowercase"; karakterleri küçük harfe çevirir.
+
+- "text-uppercase"; karakterleri büyük harfe çevirir.
+
+- "text-lowercase"; tüm kelimelerin ilk harfini büyük harfe çevirir.
+
+```sh
+ <p class="text-uppercase"> Lorem ipsum dolor sit amet, consectetur </p>
+ <p class="text-lowercase"> Lorem ipsum dolor sit amet, consectetur </p>
+ <p class="text-capitalize">Lorem ipsum dolor sit amet, consectetur </p>
+```
+
+[Demo](https://codepen.io/bedrantirak/pen/jOMGGjK)
+
+- bootstrap ".text-truncate" class' ı ile yazının sığmadığı yerlerde yazının sonuna "..." eklenmesini sağlayabilirsiniz.
+
+```sh
+<p style="width:150px;" class="text-truncate"> Lorem ipsum dolor sit amet, consectetur </p>    
+ <p style="width:200px;" class="text-truncate"> Lorem ipsum dolor sit amet, consectetur </p>  
+ <p style="width:500px;" class="text-truncate"> Lorem ipsum dolor sit amet, consectetur </p> 
+```
+
+[Demo](https://codepen.io/bedrantirak/pen/VwKMrZj)
+
