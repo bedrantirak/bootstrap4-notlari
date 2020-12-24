@@ -350,3 +350,68 @@ Yani tarayıcı genişliği;
 
 [Demo](https://codepen.io/bedrantirak/pen/VwKMrZj)
 
+#### :round_pushpin: Bootstrap 4 ile text hizalama işlemleri nasıl yapılır? Bootstrap text-align class' ları nedir ve nasıl kullanılır?
+
+- Bootstrap 4 ile gelen "text-align" ve "display" kavramları için kullanabileceğimiz bazı bootstrap class' ları mevcuttur.
+
+##### :point_right: Bootstrap 4' de Text Hizalama nasıl yapılır?
+
+Bootsrap 4' de kullanabileceğimiz "text-align" özelliğinin alabileceği değerler;
+
+- "text-justify" => block etiketi içindeki yazıları "iki yana" hizalar.
+
+- "text-right" => block etiketi içindeki yazıları "sağa" hizalar.
+
+- "text-left" => block etiketi içendeki yazıları "sola" hizalar.
+
+```sh
+<p class="text-justify">
+   Lorem ipsum dolor sit amet, consectetur adipisicing elit.   
+ </p>
+  
+ <p class="text-right">
+   Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+ </p>
+  
+ <p class="text-left">
+   Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+ </p>
+```
+
+[Demo](https://codepen.io/bedrantirak/pen/GRjMLLb)
+
+##### :point_right: Bootstrap 4' de Display nasıl kullanılır?
+
+Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen hazır display class' ları ile çok daha kolay bir şekilde kullanabiliriz.
+
+- Bir etiketi block bir etikete çevirmek için "d-block" class' ını kullanabiliriz.
+
+- Bir etiketi inline bir etikete çevirmek için "d-inline" class' ını kullanabiliriz.
+
+- Bir etiketi inline-block bir etikete çevirmek için "d-inline-block" class' ını kullanabiliriz.
+
+```sh
+<!-- Inline to Block -->
+<span class="d-block bg-danger">d-block</span>
+<span class="d-block bg-danger">d-block</span>
+
+<br><br>
+
+<!-- Block to Inline -->
+<div class="bg-warning d-inline">d-inline</div>
+<div class="bg-warning d-inline">d-inline</div>
+     
+<br><br>       
+
+<!-- Inline Block-->
+<div class="bg-primary d-inline-block">
+	<h3>Product Name</h3>
+	Description
+</div>		
+```
+
+ [Demo](https://codepen.io/bedrantirak/pen/WNGZWVx)
+ 
+- "display: none;" ile bir nesneyi görünmez hale getirebiliriz. Bu işlemi bootstrap ile yapmak istersek ".d-none" class' ını kullanmamız gerekir.
+
+
