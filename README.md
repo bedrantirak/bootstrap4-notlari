@@ -414,4 +414,51 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
  
 - "display: none;" ile bir nesneyi görünmez hale getirebiliriz. Bu işlemi bootstrap ile yapmak istersek ".d-none" class' ını kullanmamız gerekir.
 
+##### :point_right: Bootstrap 4' de Text Hizalama ve Display Özelliklerini Responsive Tasarımlar için nasıl kullanabilirim?
+
+ - Örneğin kullanıcı sitemizi telefondan ziyaret ediyorsa yani tarayıcının genişliği mininum 576px ise bu durumda ilk media query aralığındaki css kodları çalışacaktır. Yani ziyaretçilerin hangi çözünürlük arasındaki tarayıcıya sahip olup olmadığını media query aracılığıyla sorgulatıp tespit etmemiz ve ona göre css kodu yazmamız gerekir. Telefondan gelen bir kullanıcı için kullandığımız font büyüklüğü ile geniş ekranlı bir tarayıcı kullanıcısının font büyüklüğü aynı olmamalıdır.
+ 
+ - Tüm bu breakpoint sayısal değerlerini media query 'leri ile kullanmaktansa bootstrap 4 ile gelen hazır responsive ön ek class' ları kullanmamız çok daha kolay.
+ - Small cihazlar için .sm
+ - Medium cihazlar için .md
+ - Large cihazlar için .lg
+ - Eksta Large cihazlar için .xl
+ 
+##### :point_right: Bootstrap responsive ön ekleri ile text hizalamayı nasıl yaparız?
+- text-sm-right, text-md-right, text-lg-right, text-xl-right 
+
+```sh
+<p class="text-sm-right bg-primary">Right aligned on small or larger</p>
+<p class="text-md-right bg-primary">Right aligned on medium or larger</p>
+<p class="text-lg-right bg-primary">Right aligned on large or larger</p>
+<p class="text-xl-right bg-primary">Right aligned on xl or larger</p>
+```
+[Demo](https://codepen.io/bedrantirak/pen/Exgwzyp)
+
+- Aynı şekilde .text-left ve .text-justify class' larını responsive ön ekleri ile birlikte kullanabilirsiniz.
+
+##### :point_right: Bootstrap responsive ön ekleri ile display class' larını nasıl kullanırız?
+-
+```sh
+<div class="d-none">Hidden on all</div>
+<div class="d-none d-sm-block">Hidden only on xs</div>
+<div class="d-sm-none d-md-block">Hidden only on sm</div>
+<div class="d-md-none d-lg-block">Hidden only on md</div>
+<div class="d-lg-none d-xl-block">Hidden only on lg</div>
+<div class="d-xl-none">Hidden only on xl</div>
+```
+
+[Demo](https://codepen.io/bedrantirak/pen/ZEpXNBr)
+
+- "d-none" ile içerik her zaman gizlidir.
+
+- "d-none d-sm-block" ile içerik sadece ekstra small cihazlarda gizlidir.
+
+- "d-sm-none d-md-block" ile içerik sadece small cihazlarda gizlidir.
+
+- "d-md-none d-lg-block" ile içerik sadece medium cihazlarda gizlidir.
+
+- "d-lg-none d-xl-block" ile içerik sadece large cihazlarda gizlidir.
+
+- "d-xl-none" ile içerik sadece ekstra large cihazlarda gizlidir.
 
