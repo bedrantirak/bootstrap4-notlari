@@ -505,3 +505,19 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
 <div class="float-none">Float none</div>
 ```
 -  Responsive float class' larının etkisini görebilmek için tarayıcı genişliğini arttırıp azaltmanız gerekiyor.
+
+##### :point_right: Bootstrap 4 ile Position Fixed ve Sticky Kullanımı
+
+- Boostrap 4' de ".fixed-top" ve ".fixed-bottom" class' ları ile nesneleri sırasıyla yukarıda ya da aşağıda sabitleyebiliriz. Ayrıca ".sticky-top" class' ı ile relative bir nesneyi kaydırma çubuğu ile nesne üst pencereye getirdiğimiz anda en yukarıda sabitleyebiliriz.
+
+```sh
+<h3 class="fixed-top">Fixed Top</h3>
+  <p>Lorem ipsum dolor sit amet...</p>
+		
+  <h3 class="sticky-top">Fixed Sticky</h3>
+  <p>Lorem ipsum dolor sit amet...</p>
+		
+  <h3 class="fixed-bottom">Fixed Bottom</h3>
+```
+[Demo](https://codepen.io/bedrantirak/pen/xxEpKOj)
+
