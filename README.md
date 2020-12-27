@@ -462,3 +462,46 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
 
 - "d-xl-none" ile içerik sadece ekstra large cihazlarda gizlidir.
 
+#### :round_pushpin: Bootstrap 4 floating ve position özelliklerrini nasıl kulllanabilirim? 
+
+```sh
+
+```
+##### :point_right: Bootstrap 4 ile Floating ve Position
+
+- "Css floating" ve "Css position" özelliklerini Bootstrap 4 ile gelen hazır css class' ları yardımıyla çok daha kolay bir şekilde kullanabiliriz.
+
+- Bir nesneyi sola hizalamak için ".float-left", sağa hizalamak için ise ".float-right" class' larını kullanabiliriz.
+
+```sh
+<div class="clearfix">
+    <span class="float-left">Float left</span>
+    <span class="float-right">Float right</span>
+</div>
+```
+[Demo](https://codepen.io/bedrantirak/pen/QWKaLjN)
+
+- Float uyguladığımız nesneler normal akış dışına çıkıyordu ve daha sonra gelen nesneler istemediğimiz şekilde görünüyordu ve bu sorunu ortadan kaldırmak için bir clear işlemi uygulamamız gerekiyordu. 
+
+```sh
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+```
+
+- bu şekildeki css kodunu bootstrap içerisinde ".clearfix" class' ı ile kullanıma sunmuşlar. Tek yapmamız gereken clearfix class' ını gerekli yerde kullanmamız.
+
+- Tarayıcının genişliğine göre bir nesneyi sağa ya da sola hizalama işlemi yapmak isterseniz ".float-left" ve .float-right" class' larının responsive karşılıklarını kullanmanız gerekiyor.
+
+- ".float-(r)-left" ve ".float-(r)-right" class' larındaki (r) işaretinin yerine responsive ekler (.sm, .md, .lg, xl ) gelmelidir.
+
+```sh
+<div class="float-sm-right">small ve daha büyük cihazlarda</div><br>
+<div class="float-md-right">medium ve daha büyük cihazlarda</div><br>
+<div class="float-lg-right">large ve daha büyük cihazlarda</div><br>
+<div class="float-xl-right">ekstra large ve daha büyük cihazlarda</div><br>
+<div class="float-none">Float none</div>
+```
+-  Responsive float class' larının etkisini görebilmek için tarayıcı genişliğini arttırıp azaltmanız gerekiyor.
