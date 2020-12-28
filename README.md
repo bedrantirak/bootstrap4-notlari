@@ -521,3 +521,35 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
 ```
 [Demo](https://codepen.io/bedrantirak/pen/xxEpKOj)
 
+#### :round_pushpin: Boostrap 4 ile yazı rengi, link rengi, buton rengi ve zemin renkleri için css class' ları nelerdir ve bootstrap renk class' larını nasıl kullanıyoruz?
+
+- Boostrap 4 css kütüphanesi ile web sayfalarımızda önceden belirlenmiş renk kodları içeren css sınıflarını kullanarak güzel görünümler oluşturabiliriz.
+
+##### :point_right: Boostrap 4 ile Yazı Renkleri
+
+- Bootstrap 4 ile yazıları renklendirmek için kullanabileceğimiz bootstrap text css class' ları aşağıdadır.
+
+- .text-muted: This text is muted.
+
+- .text-primary: This text is important.
+
+- .text-success: This text indicates success.
+
+- .text-info: This text represents some information.
+
+- .text-warning: This text represents a warning.
+
+- .text-danger: This text represents danger.
+
+- .text-secondary: Secondary text.
+
+- .text-dark: Default body color (often black).
+
+- .text-white: This text is dark grey.
+
+- .text-body: This text is light grey (on white background).
+
+- .text-light: This text is white (on white background).
+
+[Demo](https://codepen.io/bedrantirak/pen/MWjreEz)
+
