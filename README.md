@@ -529,27 +529,27 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
 
 - Bootstrap 4 ile yazıları renklendirmek için kullanabileceğimiz bootstrap text css class' ları aşağıdadır.
 
-- .text-muted: This text is muted.
+- ".text-muted" : This text is muted.
 
-- .text-primary: This text is important.
+- ".text-primary" : This text is important.
 
-- .text-success: This text indicates success.
+- ".text-success" : This text indicates success.
 
-- .text-info: This text represents some information.
+- ".text-info" : This text represents some information.
 
-- .text-warning: This text represents a warning.
+- ".text-warning" : This text represents a warning.
 
-- .text-danger: This text represents danger.
+- ".text-danger" : This text represents danger.
 
-- .text-secondary: Secondary text.
+- ".text-secondary" : Secondary text.
 
-- .text-dark: Default body color (often black).
+- ".text-dark" : Default body color (often black).
 
-- .text-white: This text is dark grey.
+- ".text-white" : This text is dark grey.
 
-- .text-body: This text is light grey (on white background).
+- ".text-body" : This text is light grey (on white background).
 
-- .text-light: This text is white (on white background).
+- ".text-light" : This text is white (on white background).
 
 [Demo](https://codepen.io/bedrantirak/pen/MWjreEz)
 
