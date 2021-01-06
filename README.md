@@ -553,3 +553,62 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
 
 [Demo](https://codepen.io/bedrantirak/pen/MWjreEz)
 
+##### :point_right: Bootstrap 4 ile Link Renkleri
+- Bootstrap 4 ile linkleri renklendirmek için kullanabileceğimiz bootstrap link css class' ları aşağıdadır.
+```sh
+<div class="container">
+  <h2>Bootstrap 4 ile Link Renkleri</h2>
+  <p>** :hover olayı için link üzerine geliniz.</p>
+  <a href="#" class="text-muted">Muted link.</a>
+  <a href="#" class="text-primary">Primary link.</a>
+  <a href="#" class="text-success">Success link.</a>
+  <a href="#" class="text-info">Info link.</a>
+  <a href="#" class="text-warning">Warning link.</a>
+  <a href="#" class="text-danger">Danger link.</a>
+  <a href="#" class="text-secondary">Secondary link.</a>
+  <a href="#" class="text-dark">Dark grey link.</a>
+  <a href="#" class="text-body">Body/black link.</a>
+  <a href="#" class="text-light">Light grey link.</a>
+</div>
+```
+[Demo](https://codepen.io/bedrantirak/pen/wvzXaxR)
+
+##### :point_right: Bootstrap 4 ile Arkaplan Renkleri
+- Bootstrap 4 ile background-color yani zemin rengi vermek için kullanabileceğimiz bootsrap background css class' ları aşağıdadır.
+```sh
+<div class="container">
+  <h2>Bootstrap 4 ile Arkaplan Renkleri</h2>
+  <p class="bg-primary text-white">This text is important.</p>
+  <p class="bg-success text-white">This text indicates success.</p>
+  <p class="bg-info text-white">This text represents some information.</p>
+  <p class="bg-warning text-white">This text represents a warning.</p>
+  <p class="bg-danger text-white">This text represents danger.</p>
+  <p class="bg-secondary text-white">Secondary background color.</p>
+  <p class="bg-dark text-white">Dark grey background color.</p>
+  <p class="bg-light text-dark">Light grey background color.</p>
+</div>
+```
+[Demo](https://codepen.io/bedrantirak/pen/xxEzGQq)
+
+##### :point_right: Boostrap 4 ile Button Renkleri
+
+- Bootstrap 4 ile button rengi vermek için kullanabileceğimiz bootsrap button css class' ları aşağıdadır.
+
+```sh
+<div class="container">
+ <h2>Bootstrap 4 ile Button Renkleri</h2>
+ <button type="button" class="btn">Basic</button>
+ <button type="button" class="btn btn-primary">Primary</button>
+ <button type="button" class="btn btn-secondary">Secondary</button>
+ <button type="button" class="btn btn-success">Success</button>
+ <button type="button" class="btn btn-info">Info</button> 
+ <button type="button" class="btn btn-warning">Warning</button>
+ <button type="button" class="btn btn-danger">Danger</button>
+ <button type="button" class="btn btn-dark">Dark</button>
+ <button type="button" class="btn btn-light">Light</button>
+ <button type="button" class="btn btn-link">Link</button>
+</div>
+```
+[Demo](https://codepen.io/bedrantirak/pen/XWjYbOj)
+
+
