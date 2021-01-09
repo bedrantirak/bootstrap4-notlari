@@ -691,9 +691,9 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
 </table>
 ```
 
-- Tablolar için kullanabileceğimiz bazı renk class' ları vardır. Bu sınıfları "<table>", "<tr>" ya da "<td>" etiketlerine uygulayıp ister satır ister kolon istersek de tablonun kendisi için arkaplan rengi oluşturabiliriz.
+- Tablolar için kullanabileceğimiz bazı renk class' ları vardır. Bu class' ları "table", "tr" ya da "td" etiketlerine uygulayıp ister satır ister kolon istersek de tablonun kendisi için arkaplan rengi oluşturabiliriz.
 
-- Bootstrap tablolar ile kullanabileceğimiz renk sınıfları ".table-active, .table-primary, .table-secondary, .table-success, .table-danger, .table-warning, .table-info, .table-light, .table-dark" class' larıdır.
+- Bootstrap tablolar ile kullanabileceğimiz renk class' ları ".table-active, .table-primary, .table-secondary, .table-success, .table-danger, .table-warning, .table-info, .table-light, .table-dark" class' larıdır.
 
 ```sh
 <table class="table">
