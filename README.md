@@ -611,4 +611,82 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
 ```
 [Demo](https://codepen.io/bedrantirak/pen/XWjYbOj)
 
+#### :round_pushpin: Bootstrap 4 ile Tablo Tasarımı Nasıl Yapılır?
+- "<table>" etiketine sadece ".table" class' ını ekleyerek tablomuza padding ve yatay çizgileri eklemiş oluyoruz.
 
+```sh
+<table class="table">
+  <tr>
+     <th>Kurs</th>
+     <th>Ders Sayısı</th> 
+     <th>Öğrenci Sayısı</th>
+  </tr>
+  <tr>
+     <td>Komple Uygulamalı Web Geliştirme Eğitimi</td>
+     <td>325</td> 
+     <td>3000</td>
+  </tr>
+  <tr>
+    <td>Uygulamalı Programlama Eğitimi</td>
+    <td>126</td> 
+    <td>500</td>
+  </tr>
+</table>
+```
+[Demo](https://codepen.io/bedrantirak/pen/XWjBqQy)
+
+- ".table-striped" class' ını ekleyerek tablomuzun her satırını farklı renk ile daha belirgin hale getirebiliriz.,
+```sh
+<table class="table table-striped">
+  <tr>
+    <td> </td>
+  </tr> 
+</table>
+```
+[Demo](https://codepen.io/bedrantirak/pen/zYKLjQy)
+
+- ".table-bordered " class' ını ekleyerek tablomuza kenarlık ekleyebiliriz.
+```sh
+<table class="table table-bordered">
+  <tr>
+    <td> </td>
+  </tr>  
+</table>
+```
+[Demo](https://codepen.io/bedrantirak/pen/yLaqjdj)
+
+- .table-hover class' ını ekleyerek her satır üzerine geldiğimizde satırı öne çıkaracak bir zemin rengi görünmesini sağlayabiliriz.
+```sh
+<table class="table table-hover">
+  <tr>
+    <td> </td>
+  </tr>  
+</table>
+```
+[Demo](https://codepen.io/bedrantirak/pen/OJRwZKp)
+
+- ".table-borderless" class' ını ekleyerek tablonun tüm kenarlıklarını silebiliriz.
+```sh
+<table class="table table-borderless">
+  <tr>
+    <td> </td>
+  </tr>  
+</table>
+```
+- ".table-dark" class' ını ekleyerek siyah bir tablo elde edebiliriz.
+```sh
+<table class="table table-borderless table-dark">
+  <tr>
+    <td> </td>
+  </tr>  
+</table>
+```
+
+- ".table-sm" class' ını ekleyerek daha az padding değerine sahip tablo elde edebiliriz.
+```sh
+<table class="table table-sm">
+  <tr>
+    <td> </td>
+  </tr>  
+</table>
+```
