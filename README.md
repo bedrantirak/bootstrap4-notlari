@@ -771,3 +771,16 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
 ```
 [Demo](https://codepen.io/bedrantirak/pen/ExgpRaJ)
 
+#### :round_pushpin: Bootsrap 4 Image class' ları ile Resim Biçimlendirme İşlemleri
+
+- Bootstrap 4 image class' ları ile köşeleri yuvarlatılmış resimleri ".rounded" class' ını kullanarak oluşturabiliriz.
+
+- Bootstrap 4 image class' ları ile köşeleri tam yuvarlatılmış resimleri ".rounded-circle" class' ını kullanarak oluşturabiliriz.
+
+- Bootstrap 4 image class' ları ile thumbnail resimleri ".img-thumbnail" class' ını kullanarak oluşturabiliriz.
+
+- Bootstrap 4 .float-left ve .float-right class' ları ile resimleri sağa ya da sola hizalayabiliriz.
+
+- Bootstrap 4 ile resmi ortalamak için .mx-auto (sağ ve soldan margin) ve .d-block class' larını kullanabiliriz.
+
+- Bootstrap 4 ile responsive bir resim oluşturmak için .img-fluid class' ını kullanabiliriz. Bir resme .img-fluid eklediğimizde width:100%; ve height:auto; özelliklerini uygulamış oluyoruz dolayısıyla resmin genişliği içinde bulunduğu etiketin genişliğine göre ayarlanmış oluyor.
