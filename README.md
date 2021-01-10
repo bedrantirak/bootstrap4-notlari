@@ -784,3 +784,26 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
 - Bootstrap 4 ile resmi ortalamak için .mx-auto (sağ ve soldan margin) ve .d-block class' larını kullanabiliriz.
 
 - Bootstrap 4 ile responsive bir resim oluşturmak için .img-fluid class' ını kullanabiliriz. Bir resme .img-fluid eklediğimizde width:100%; ve height:auto; özelliklerini uygulamış oluyoruz dolayısıyla resmin genişliği içinde bulunduğu etiketin genişliğine göre ayarlanmış oluyor.
+
+#### :round_pushpin: Boostrap Jumbotron nedir ve nasıl oluşturulur?
+
+- Boostrap Jumbotron gri bir arka zemine sahip olan bir bölmedir ve genelde web sayfamızın amacını bildiren bir başlık ve açıklamayı barındırır.
+- Jumbotron kısmını oluşturmak için .jumbotron class' ına sahip bir "div" etiketi oluşturmamız gerekiyor.
+```sh
+<div class="jumbotron">
+  <h1>Bootstrap Tutorial</h1> 
+  <p>Bootstrap is the most popular HTML, CSS and JS framework for developing </p> 
+</div>
+```
+- Eğer ki satırı kaplayan bir bootstrap jumbotron oluşturmak isterseniz .jumbotron class' ından sonra .jumbotron-fluid class' ını da eklemelisiniz.
+
+- Ayrıca jumbotron' un gri zemin rengi satırı kapladıktan sonra içeriğinde ortalanmasını yani aynı şekilde kenarlara kadar gelmemesi için .container class' ını kullanmalıyız.
+
+```sh
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1>Bootstrap Tutorial</h1> 
+    <p>Bootstrap is the most popular HTML, CSS and JS framework for developing</p> 
+  </div>
+</div>
+```
