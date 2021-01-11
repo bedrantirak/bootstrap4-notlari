@@ -807,3 +807,58 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
   </div>
 </div>
 ```
+#### :round_pushpin: Bootstrap alerts nedir ve nasıl kullanılır?
+
+- Boostrap 4 alert class' ları ile amacınıza uygun mesaj içeriklerinizi gösterebilirsiniz.
+
+- Örneğin kayıt işleminden sonra işlemin başarılı olduğunu söylemek için yeşil zemin rengine sahip bir alert kutusu ya da bir hata mesajını göstermek için kırmızı zemin rengine sahip bir alert kutusu kullanabilirsiniz.
+
+- Alert kutularını oluşturmak için .alert class' ından sonra .alert-success, .alert-info, .alert-warning, .alert-danger, .alert-primary, .alert-secondary, .alert-light, .alert-dark class' larından birini kullanabilirsiniz.
+
+```sh
+<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
+<div class="alert alert-secondary" role="alert">
+  A simple secondary alert—check it out!
+</div>
+<div class="alert alert-success" role="alert">
+  A simple success alert—check it out!
+</div>
+<div class="alert alert-danger" role="alert">
+  A simple danger alert—check it out!
+</div>
+<div class="alert alert-warning" role="alert">
+  A simple warning alert—check it out!
+</div>
+<div class="alert alert-info" role="alert">
+  A simple info alert—check it out!
+</div>
+<div class="alert alert-light" role="alert">
+  A simple light alert—check it out!
+</div>
+<div class="alert alert-dark" role="alert">
+  A simple dark alert—check it out!
+</div>
+```
+[Demo](https://codepen.io/bedrantirak/pen/jOMvKvp)
+
+- Alert kutusu içinde bir link oluşturmak için .alert-link class' ını kullanabiliriz.
+
+```sh
+<div class="alert alert-primary" role="alert">
+  A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+```
+[Demo](https://codepen.io/bedrantirak/pen/bGwxKmL)
+
+- Kullanıcının alert kutusunu kapatması için bir icon ekleyebiliriz.
+```sh
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+```
+[Demo](https://codepen.io/bedrantirak/pen/eYdLKQo)
