@@ -862,3 +862,72 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
 </div>
 ```
 [Demo](https://codepen.io/bedrantirak/pen/eYdLKQo)
+
+#### :round_pushpin: Bootstrap 4 Button Kullanımı
+
+- Bootstrap 4 Buttons sınıfları ile a, button ya da input etiketleri için kullanabilecek olduğumuz bootstrap button class' ları ile güzel görünümlü butonları saniyeler içinde oluşturabiliriz.
+
+```sh
+<a href="#" class="btn btn-primary" role="button">Link Button</a>
+<button type="button" class="btn btn-danger">Button</button>
+<input type="button" class="btn btn-success" value="Input Button">
+<input type="submit" class="btn btn-warning" value="Submit Button">
+```
+[Demo](https://codepen.io/bedrantirak/pen/VwKqyRx)
+
+- Bootstrap 4 button oluşturmak için ilk olarak .btn class' ını ilgili etikete vermeliyiz ardından farklı stildeki butonlar için kullanabilecek olduğumuz button class' larından (.btn-primary, .btn-secondary, .btn-success, .btn-danger, .btn-warning, .btn-info, .btn-dark, .btn-light) bir tane seçmeliyiz.
+
+```sh
+<button type="button" class="btn">Basic</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-link">Link</button>
+```
+
+[Demo](https://codepen.io/bedrantirak/pen/xxEmpeX)
+
+- Bootstrap 4 ile outline butonuda oluşturabiliriz.
+
+```sh
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+<button type="button" class="btn btn-outline-light text-dark">Light</button>
+```
+[Demo](https://codepen.io/bedrantirak/pen/yLaGpWO)
+
+- Bootstrap 4 ile farklı boyutlarda button oluşturmak için kullanabileceğimiz .btn-sm, .btn-large ve .btn-block class' ları vardır.
+
+```sh
+<button type="button" class="btn btn-primary btn-lg">Large</button>
+<button type="button" class="btn btn-primary">Default</button>
+<button type="button" class="btn btn-primary btn-sm">Small</button>
+```
+-  .btn-sm ile küçük bir buton .btn-large ile büyük bir buton oluşturabiliriz.
+
+[Demo](https://codepen.io/bedrantirak/pen/VwKqyJd)
+
+- .btn-block class' ı ile bir block eleman şeklinde yani satırı olduğu gibi kaplayan bir buton oluşturabiliriz.
+```sh
+<button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+```
+- .active class' ı ile butona tıklanmış hissi verebiliriz.
+
+- .disabled class' ı ile butonu pasif hale getirebiliriz ancak a etiketi için .disabled sadece görüntü açısından pasif hissini verir.
+
+```sh
+<button type="button" class="btn btn-primary active">Active Primary</button>
+<button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
+<a href="#" class="btn btn-primary disabled">Disabled Link</a>
+```
+[Demo](https://codepen.io/bedrantirak/pen/ExgGQYv)
