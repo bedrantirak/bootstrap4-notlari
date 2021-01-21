@@ -931,3 +931,56 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
 <a href="#" class="btn btn-primary disabled">Disabled Link</a>
 ```
 [Demo](https://codepen.io/bedrantirak/pen/ExgGQYv)
+
+#### :round_pushpin: Bootstrap Button Grupları Nasıl Oluşturulur?
+
+- Boostrap 4 ile oluşturduğumuz butonları .btn-group class' ını kullanarak gruplayabiliriz.
+
+```sh
+<div class="btn-group">
+  <button type="button" class="btn btn-primary">First</button>
+  <button type="button" class="btn btn-primary">Second</button>
+  <button type="button" class="btn btn-primary">Third</button>
+</div>
+```
+  [Demo](https://codepen.io/bedrantirak/pen/ZEpZJKm)
+ 
+ - Buton grupları oluşturduğumuzda buton boyutları için kullandığımız .btn-sm ve .btn-lg class' larını her bir butona tek tek vermektense gruba verip bütün butonların boyutlarını aynı yapabiliriz.
+ 
+```sh
+<div class="btn-group btn-group-lg">
+  <button type="button" class="btn btn-primary">First</button>
+  <button type="button" class="btn btn-primary">Second</button>
+  <button type="button" class="btn btn-primary">Third</button>
+</div>
+```
+[Demo](https://codepen.io/bedrantirak/pen/zYKXdzX)
+
+- Butonları alt alta gruplayıp dikey bir menü görüntüsü oluşturmak için .btn-group yerine .btn-group-vertical class' ını kullanmalıyız.
+
+```sh
+<div class="btn-group btn-group-vertical">
+  <button type="button" class="btn btn-primary">First</button>
+  <button type="button" class="btn btn-primary">Second</button>
+  <button type="button" class="btn btn-primary">Third</button>
+</div>
+```
+[Demo](https://codepen.io/bedrantirak/pen/abmxyyg)
+
+- Button grubu içindeki her hangi bir buton için bir dropdown menü oluşturabiliriz.
+
+```sh
+<div class="btn-group">
+  <button type="button" class="btn btn-primary">First</button>
+  <button type="button" class="btn btn-primary">Second</button>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+       Third
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Fifth</a>
+      <a class="dropdown-item" href="#">Six</a>
+    </div>
+ </div>
+```
+[Demo](https://codepen.io/bedrantirak/pen/PoGgKOj)
