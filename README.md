@@ -994,11 +994,10 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
 - Badge olarak eklemek istediğimiz içeriğe .badge class' ını eklemeliyiz.
 
 ```sh
-<h1>Example heading <span class="badge badge-secondary">New</span></h1>
+<h1>Example heading <span class="badge badge-primary">New</span></h1>
 <h2>Example heading <span class="badge badge-secondary">New</span></h2>
-<h3>Example heading <span class="badge badge-secondary">New</span></h3>
-<h4>Example heading <span class="badge badge-secondary">New</span></h4>
-<h5>Example heading <span class="badge badge-secondary">New</span></h5>
-<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+<h3>Example heading <span class="badge badge-warning">New</span></h3>
+<h4>Example heading <span class="badge badge-danger">New</span></h4>
+<h5>Example heading <span class="badge badge-info">New</span></h5>
 ```
 [Demo](https://codepen.io/bedrantirak/pen/MWjdwBY)
