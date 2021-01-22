@@ -984,3 +984,21 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
  </div>
 ```
 [Demo](https://codepen.io/bedrantirak/pen/PoGgKOj)
+
+#### :round_pushpin: Bootstrap badges nedir ve nasıl kullanılır?
+
+- Bootstrap badges, ekstra bilgilendirme mesajlarına ilgi çekmek için kullanılır. Örneğin bir başlığın yanında vereceğimiz bir mesaj için.
+
+- Boostrap badge içinde bulunduğu parent elamana uygulanan font büyüklüğüne göre ölçeklenebilir.
+
+- Badge olarak eklemek istediğimiz içeriğe .badge class' ını eklemeliyiz.
+
+```sh
+<h1>Example heading <span class="badge badge-secondary">New</span></h1>
+<h2>Example heading <span class="badge badge-secondary">New</span></h2>
+<h3>Example heading <span class="badge badge-secondary">New</span></h3>
+<h4>Example heading <span class="badge badge-secondary">New</span></h4>
+<h5>Example heading <span class="badge badge-secondary">New</span></h5>
+<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+```
+[Demo](https://codepen.io/bedrantirak/pen/MWjdwBY)
