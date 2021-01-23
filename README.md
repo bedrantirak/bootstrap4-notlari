@@ -1001,3 +1001,111 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
 <h5>Example heading <span class="badge badge-info">New</span></h5>
 ```
 [Demo](https://codepen.io/bedrantirak/pen/MWjdwBY)
+
+#### :round_pushpin: Boostrap progress bar (ilerleme çubuğu) nasıl yapılır?
+
+- Boostrap Progress Bar, bir işlemin tamamlanmasına ne kadar kaldığını görsel olarak bildirmek için kullanılan ve içi dolan bir ilerleme çubuğunu temsil eder. 
+
+- Bootstrap progress bar oluşturmak için .progress sınıfına sahip bir div etiketi içine ekleyeceğiniz bir başka div etiketine .progress-bar sclass' ını ekleyerek elde edebiliriz. Progress bar' ın width özelliğine vereceğiniz yüzde oranı ise ilerleme çubuğunun yüzde kaçında olduğumuzu temsil eder.
+
+```sh
+<div class="progress">
+  <div class="progress-bar" style="width:70%"></div>
+</div>
+```
+- Progress barın başlangıç olarak yüksekliği 16px' dir. Eğer farklı bir yükseklik değeri atamak isterseniz height özelliğini kullanabilirsiniz.
+
+```sh
+<div class="progress" style="height:30px">
+  <div class="progress-bar" style="width:70%;height:30px"></div>
+</div>
+```
+[Demo](https://codepen.io/bedrantirak/pen/bGwyLRx)
+
+- Progress bar üzerine ilerlemeyi belirtecek olan bir yazı ekleyebilirsiniz.
+
+```sh
+<div class="progress">
+  <div class="progress-bar" style="width:70%">70%</div>
+</div>
+```
+- Progress barın rengi başlangıç ayarı olarak mavi (primary) renktedir. Bu rengi değiştirmek için bg-* class' larını kullanabilirsiniz.
+
+```sh
+ <div class="progress">
+    <div class="progress-bar" style="width:10%"></div>
+  </div><br>
+
+  <!-- Green -->
+  <div class="progress">
+    <div class="progress-bar bg-success" style="width:20%"></div>
+  </div><br>
+
+  <!-- Turquoise -->
+  <div class="progress">
+    <div class="progress-bar bg-info" style="width:30%"></div>
+  </div><br>
+
+  <!-- Orange -->
+  <div class="progress">
+     <div class="progress-bar bg-warning" style="width:40%"></div>
+  </div><br>
+
+  <!-- Red -->
+  <div class="progress">
+    <div class="progress-bar bg-danger" style="width:50%"></div>
+  </div><br>
+
+  <!-- White -->
+  <div class="progress border">
+    <div class="progress-bar bg-white" style="width:60%"></div>
+  </div><br>
+
+  <!-- Grey -->
+  <div class="progress">
+    <div class="progress-bar bg-secondary" style="width:70%"></div>
+  </div><br>
+
+  <!-- Light Grey -->
+  <div class="progress border">
+    <div class="progress-bar bg-light" style="width:80%"></div>
+  </div><br>
+
+  <!-- Dark Grey -->
+  <div class="progress">
+    <div class="progress-bar bg-dark" style="width:90%"></div>
+  </div>
+```
+[Demo](https://codepen.io/bedrantirak/pen/eYdaVGO)
+
+- .progress-bar-striped class' ı ile çizgili progress bar oluşturabiliriz.
+```sh
+<div class="progress">
+  <div class="progress-bar progress-bar-striped" style="width:40%"></div>
+</div>
+```
+ [Demo](https://codepen.io/bedrantirak/pen/dypEdVv)
+ 
+ - .progress-bar-animated class' ını ekleyerek hareketli progress bar oluşturabiliriz.
+ ```sh
+ <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%">
+   40%
+</div>
+ ```
+ [Demo](https://codepen.io/bedrantirak/pen/poEmaZM)
+ 
+ - Farklı tipteki progress barları aynı yerde kullanabiliriz.
+ ```sh
+ <div class="progress">
+  <div class="progress-bar bg-success" style="width:40%">
+    Free Space
+  </div>
+  <div class="progress-bar bg-warning" style="width:10%">
+    Warning
+  </div>
+  <div class="progress-bar bg-danger" style="width:20%">
+    Danger
+  </div>
+</div>
+ ```
+ [Demo](https://codepen.io/bedrantirak/pen/gOwJvdK)
