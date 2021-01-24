@@ -1109,3 +1109,24 @@ Css display özelliği ile yazdığımız css kodlarını bootstrap 4 ile gelen 
 </div>
  ```
  [Demo](https://codepen.io/bedrantirak/pen/gOwJvdK)
+  #### :round_pushpin: Boostrap ile sayfalama buttonlarını nasıl yapılır?
+ 
+ - Bootstrap pagination class ları ile sayfalama butonları oluşturmak için ul etiketine .pagination  class ını verdikten sonra her bir butonu barındıracak olan li etiketine .page-item class ını vermeliyiz. Her bir li etiketi içine a ya da button etiketi ekleyerek .page-link sınıfını kullanmalıyız.
+ 
+```sh
+<ul class="pagination pagination-lg justify-content-center">
+  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+  <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+  <li class="page-item active" ><a class="page-link" href="#">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">3</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul>
+<ul class="pagination pagination-sm justify-content-end">
+  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+  <li class="page-item"><a class="page-link" href="#">1</a></li>
+  <li class="page-item"><a class="page-link" href="#">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">3</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul>
+```
+ [Demo](https://codepen.io/bedrantirak/pen/zYKVvKN)
